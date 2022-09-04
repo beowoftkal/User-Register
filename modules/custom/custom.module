@@ -1,0 +1,12 @@
+<?php
+
+    function custom_theme(){
+      return array(
+        'custom-template'=>array(
+          'variables'=>array(
+            'items'=>[],
+            'title'=>''
+          )
+        )
+      );
+    }

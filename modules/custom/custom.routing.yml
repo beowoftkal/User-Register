@@ -1,0 +1,8 @@
+custom.createCus:
+  path: '/user/form/example-register'
+  defaults:
+    # _form: '\Drupal\custom\Form\CusForm'
+    _controller: 'Drupal\custom\Controller\CustomController::createCustomer'
+    _title: 'Create Customer'
+  requirements:
+    _permission: 'access content'
